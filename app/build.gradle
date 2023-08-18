@@ -9,6 +9,10 @@ android {
     namespace 'com.example.gitlessonsecond'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.example.gitlessonsecond"
         minSdk 24
